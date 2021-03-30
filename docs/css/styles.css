@@ -10139,11 +10139,13 @@ section.resume-section .resume-section-content {
 }
 
 .tooltip .tooltip-text::after{
-  content: " ";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  
+    content: " ";
+    position: absolute;
+    top: -46%;
+    left: 38%;
+    border-color: transparent transparent #a3a8ad transparent;
+    border-width: 10px;
+    border-style: solid; 
 }
 
 /* all icon in Skills section*/
