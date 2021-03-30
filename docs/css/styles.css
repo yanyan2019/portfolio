@@ -10106,7 +10106,7 @@ section.resume-section .resume-section-content {
 }
 
 .tooltip .tooltip-text{
-  /* visibility: hidden; */
+  visibility: hidden;
   position: absolute;
   z-index: 10;
   top: 100%;
