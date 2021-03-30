@@ -10110,15 +10110,16 @@ section.resume-section .resume-section-content {
     position: absolute;
     z-index: 10;
     top: 6vh;
-    left: -10%;
+    left: -38%;
     margin: 10px;
-    background: #495057;
+    background: #a3a8ad;
     padding: 10px;
     border-radius: 8px;
+    width: max-content;
 }
 
 .tooltip:hover .tooltip-text{
-  color: red;
+  color: white;
   visibility: visible;
 }
 
