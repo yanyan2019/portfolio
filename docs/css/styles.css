@@ -10102,12 +10102,13 @@ section.resume-section .resume-section-content {
 .tooltip{
   position: relative;
   display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltip-text{
   visibility: hidden;
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   top: 100%;
   left: 50%;
   margin-left: -60px;
