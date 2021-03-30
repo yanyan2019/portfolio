@@ -10099,10 +10099,10 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-i[title]{
-  display: inline;
-  color: #007bff;
-  z-index: 10;
+div[title]{
+
+  color: red;
+
 }
 
 @media (min-width: 768px) {
