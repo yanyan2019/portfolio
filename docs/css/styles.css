@@ -10101,6 +10101,7 @@ section.resume-section .resume-section-content {
 
 .tooltip{
   position: relative;
+  display: inline-block;
 }
 
 .tooltip .tooltip-text{
@@ -10110,6 +10111,7 @@ section.resume-section .resume-section-content {
   top: 100%;
   left: 50%;
   margin-left: -60px;
+  color: #007bff;
 }
 
 .tooltip:hover .tooltip-text{
