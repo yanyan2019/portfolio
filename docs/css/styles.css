@@ -10099,6 +10099,27 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text{
+  visibility: hidden;
+  z-index: 1;
+  position: absolute;
+}
+
+.tooltip .tooltip-text::after{
+  content: "";
+  position: absolute;
+
+}
+
+.tooltip:hover .tooltip-text{
+  visibility: visible;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -10112,3 +10133,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
