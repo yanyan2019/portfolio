@@ -10105,6 +10105,10 @@ section.resume-section .resume-section-content {
   opacity: 1;
 }
 
+.tooltip:hover {
+    color: #e27044;
+}
+
 .tooltip .tooltip-text{
     visibility: hidden;
     position: absolute;
@@ -10119,7 +10123,8 @@ section.resume-section .resume-section-content {
 }
 
 .about-icons{
-  left: -38%;
+  left: -22%;
+  margin-top: 10px;
 }
 
 .tooltip:hover .tooltip-text{
