@@ -10110,12 +10110,16 @@ section.resume-section .resume-section-content {
     position: absolute;
     z-index: 10;
     top: 6vh;
-    left: -38%;
-    margin: 10px;
     background: #a3a8ad;
-    padding: 10px;
+    padding: 10px 5px;
+    min-width: 70px;
     border-radius: 8px;
     width: max-content;
+    text-align: center;
+}
+
+.about-icons{
+  left: -38%;
 }
 
 .tooltip:hover .tooltip-text{
@@ -10127,8 +10131,14 @@ li.list-inline-item{
   font-size: 3rem;
 }
 
-span.tooltip-text.skill-icons{
-  left: -50%;
+.skill-icons{
+    left: -22%;
+    margin-top: 10px;
+}
+
+i.icon-cplusplus {
+    position: relative;
+    top: 6px;
 }
 
 @media (min-width: 768px) {
