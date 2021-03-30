@@ -10119,9 +10119,9 @@ section.resume-section .resume-section-content {
     z-index: 10;
     top: 6vh;
     background: #a3a8ad;
-    padding: 10px 5px;
+    padding: 0px 9px;
     min-width: 70px;
-    border-radius: 8px;
+    border-radius: 4px;
     width: max-content;
     text-align: center;
 }
@@ -10138,7 +10138,7 @@ section.resume-section .resume-section-content {
   visibility: visible;
 }
 
-.tooltip .tooltip-text::after{
+/* .tooltip .tooltip-text::after{
     content: " ";
     position: absolute;
     top: -46%;
@@ -10146,7 +10146,7 @@ section.resume-section .resume-section-content {
     border-color: transparent transparent #a3a8ad transparent;
     border-width: 10px;
     border-style: solid; 
-}
+} */
 
 /* all icon in Skills section*/
 li.list-inline-item{
@@ -10154,7 +10154,7 @@ li.list-inline-item{
 }
 
 .skill-icons{
-    left: -22%;
+    left: -14px;
     margin-top: 10px;
 }
 
