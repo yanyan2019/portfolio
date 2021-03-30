@@ -10099,6 +10099,19 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text{
+  visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+  color: red;
+  visibility: visible;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
