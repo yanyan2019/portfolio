@@ -10118,6 +10118,7 @@ section.resume-section .resume-section-content {
 
 .tooltip:hover .tooltip-text{
   visibility: visible;
+  opacity: 1;
 }
 
 @media (min-width: 768px) {
