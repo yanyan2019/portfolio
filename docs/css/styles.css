@@ -10101,11 +10101,15 @@ section.resume-section .resume-section-content {
 
 .tooltip{
   position: relative;
-  display: inline-block;
 }
 
-.tooltip-text{
+.tooltip .tooltip-text{
   visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tooltip:hover .tooltip-text{
