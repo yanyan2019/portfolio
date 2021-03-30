@@ -10106,13 +10106,15 @@ section.resume-section .resume-section-content {
 }
 
 .tooltip .tooltip-text{
-  visibility: hidden;
-  position: absolute;
-  z-index: 10;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-  color: #007bff;
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    top: 6vh;
+    left: -10%;
+    margin: 10px;
+    background: #495057;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .tooltip:hover .tooltip-text{
