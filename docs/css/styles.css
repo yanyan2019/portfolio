@@ -10099,28 +10099,70 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+/* all tooltip css below are based on https://www.w3schools.com/css/css_tooltip.asp */
+
+/* tooltip container */
 .tooltip{
   position: relative;
   display: inline-block;
   opacity: 1;
 }
 
+.tooltip:hover {
+    color: #e27044;
+}
+
+/* tooltip text before hovering */
 .tooltip .tooltip-text{
     visibility: hidden;
     position: absolute;
     z-index: 10;
     top: 6vh;
-    left: -38%;
-    margin: 10px;
-    background: #a3a8ad;
-    padding: 10px;
-    border-radius: 8px;
+    background: #dc5521;
+    padding: 0px 9px;
+    min-width: 70px;
+    border-radius: 4px;
     width: max-content;
+    text-align: center;
 }
 
+/* position for icons in About section */
+.about-icons{
+  left: -22%;
+  margin-top: 10px;
+}
+
+/* show tooltip text during hovering  */
 .tooltip:hover .tooltip-text{
   color: white;
   visibility: visible;
+}
+
+/* .tooltip .tooltip-text::after{
+    content: " ";
+    position: absolute;
+    top: -46%;
+    left: 38%;
+    border-color: transparent transparent #a3a8ad transparent;
+    border-width: 10px;
+    border-style: solid; 
+} */
+
+/* all icon in Skills section*/
+li.list-inline-item{
+  font-size: 3rem;
+}
+
+.skill-icons{
+    left: -14px;
+    margin-top: 10px;
+}
+
+
+/* c++ icon(not available in font awesome, using font Mfizz instead) */
+i.icon-cplusplus {
+    position: relative;
+    top: 6px;
 }
 
 @media (min-width: 768px) {
